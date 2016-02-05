@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Document - <%= @document.title %></title>
+	</head>
+	<body>
+		<h1><%= @document.title %></h1>
+		<div>
+			<p>
+				<label for="title">Title:</label><br/>
+				<strong><%= @document.title %></strong>
+			</p>
+			<p>
+				<label for="tags">Tags:<br/>
+				<strong><%= @document.tags %></strong>
+			</p>
+			<p>
+				<label>Description:</label><br/>
+				<strong><%= @document.description %></strong>
+			</p>
+		</div>	
+	</body>
+</html>
